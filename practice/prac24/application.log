@@ -1,0 +1,40 @@
+1470 [restartedMain] INFO  c.example.prac14.Prac14Application – Starting Prac14Application using Java 19.0.2 with PID 10644 (C:\Users\georn\Desktop\javaSpringWorks\practice\prac24\build\classes\java\main started by George in C:\Users\georn\Desktop\javaSpringWorks\practice\prac24)
+1498 [restartedMain] INFO  c.example.prac14.Prac14Application – No active profile set, falling back to 1 default profile: "default"
+1678 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1679 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+3262 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3376 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+4982 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+5004 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+5005 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+5006 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+5141 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+5142 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3458 ms
+5556 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+5717 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+6417 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7082 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25b4a7c
+7087 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7249 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+9112 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9137 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10208 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11030 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@110001e9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16437c7a, org.springframework.security.web.context.SecurityContextHolderFilter@7eda6880, org.springframework.security.web.header.HeaderWriterFilter@36aaccfc, org.springframework.security.web.authentication.logout.LogoutFilter@70d98cb8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4018eb98, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@274f360c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@74f4d93c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@585e4ff7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23bb4d72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ad8f435, org.springframework.security.web.access.ExceptionTranslationFilter@551f70e6, org.springframework.security.web.access.intercept.AuthorizationFilter@57b8dc8a]
+11583 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+11624 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+11671 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+11698 [restartedMain] INFO  c.example.prac14.Prac14Application – Started Prac14Application in 10.918 seconds (process running for 12.905)
+65968 [scheduling-1] INFO  com.example.prac14.Aspect – void com.example.prac14.service.ScheduleService.doTask() выполнен за 584мс
+125406 [scheduling-1] INFO  com.example.prac14.Aspect – void com.example.prac14.service.ScheduleService.doTask() выполнен за 34мс
+185413 [scheduling-1] INFO  com.example.prac14.Aspect – void com.example.prac14.service.ScheduleService.doTask() выполнен за 36мс
+197431 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+197432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+197437 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 4 ms
+245395 [scheduling-1] INFO  com.example.prac14.Aspect – void com.example.prac14.service.ScheduleService.doTask() выполнен за 16мс
+283575 [http-nio-8080-exec-9] INFO  com.example.prac14.Aspect – void com.example.prac14.service.EmailService.sendGetFootballerEmail(String) выполнен за 15284мс
+283603 [http-nio-8080-exec-9] INFO  c.e.p.service.FootballerService – Get footballer by ID 5
+283616 [http-nio-8080-exec-9] INFO  com.example.prac14.Aspect – Footballer com.example.prac14.service.FootballerService.getFootballerById(int) выполнен за 15мс
+305394 [scheduling-1] INFO  com.example.prac14.Aspect – void com.example.prac14.service.ScheduleService.doTask() выполнен за 14мс
+332296 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+332304 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+332317 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

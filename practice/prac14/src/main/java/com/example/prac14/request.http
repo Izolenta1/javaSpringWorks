@@ -1,0 +1,21 @@
+POST http://localhost:8080/footballer
+Content-Type: application/json
+
+{
+    "firstName": "Nick",
+    "lastName": "Nickovich"
+ }
+
+###
+
+DELETE http://localhost:8080/footballer
+Content-Type: application/json
+
+{
+  "firstName": "Nick",
+  "lastName": "Nickovich"
+}
+
+###
+
+GET http://localhost:8080/footballer
